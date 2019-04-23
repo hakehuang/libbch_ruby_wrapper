@@ -1,0 +1,24 @@
+GEM
+  remote: https://gems.ruby-china.com/
+  specs:
+    bindata (2.4.4)
+    deep_merge (1.2.1)
+    ffi (1.10.0-x64-mingw32)
+    ffi-libc (0.1.0)
+      ffi (~> 1.0)
+    fiddle (1.0.0)
+    fileutils (1.2.0)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  bindata
+  deep_merge
+  ffi
+  ffi-libc
+  fiddle
+  fileutils
+
+BUNDLED WITH
+   1.16.1

@@ -1,0 +1,3 @@
+[submodule "libbch"]
+	path = libbch
+	url = https://github.com/hakehuang/libbch.git
