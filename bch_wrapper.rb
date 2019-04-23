@@ -75,7 +75,7 @@ def test_bch()
 
   data.write_array_of_uint8([0xF0])
   
-  ecc.write_array_of_uint8([data.read_array_of_int(1)[0] ^ 0xF0])
+  ecc.write_array_of_uint8([ecc.read_array_of_int(1)[0] ^ 0xF0])
   
   errcnt = Libbch::libbch_decode(libbch, data, ecc)
   if (errcnt > 0)
